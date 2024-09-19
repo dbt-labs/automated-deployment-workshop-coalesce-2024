@@ -1,0 +1,4 @@
+
+models:
+  - name: dim_customers
+  - name: fct_orders
