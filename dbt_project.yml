@@ -13,7 +13,7 @@ require-dbt-version: ">=1.6.0rc2"
 # The `model-paths` config, for example, states that models in this project can be
 # found in the "models/" directory. You probably won't need to change these!
 model-paths: ["models"]
-analysis-paths: ["analyses"]
+analysis-paths: ["analyses", "workshop_resources"]
 test-paths: ["tests"]
 seed-paths: ["seeds"]
 macro-paths: ["macros"]
