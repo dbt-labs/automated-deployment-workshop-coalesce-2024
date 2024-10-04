@@ -34,8 +34,8 @@ final as (
         customers.customer_name,
         customer_orders.first_order_date,
         customer_orders.most_recent_order_date,
-        coalesce(customer_orders.number_of_orders, 0) as number_of_orders
-
+        coalesce(customer_orders.number_of_orders, 0) as number_of_orders,
+        select 1 as fun
     from customers
 
     left join customer_orders using (customer_id)
