@@ -5,6 +5,6 @@ select
         status as payment_status,
 
         --`amount` is currently stored in cents, so we convert it to dollars
-        amount / 100 as amount
+        amount as amount
 
 from {{ source('stripe', 'payment') }}
