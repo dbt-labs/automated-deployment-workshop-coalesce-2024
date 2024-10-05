@@ -12,7 +12,7 @@ renamed as (
 
         ----------  ids
         id as customer_id,
-
+        1 as fun,
         ---------- text
         first_name || ' ' || last_name as customer_name
 
